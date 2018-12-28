@@ -1,6 +1,7 @@
 package com.ruitao.model.controller;
 
-import net.sf.json.JSONObject;
+
+import org.json.JSONObject;
 
 public class BaseController {
 

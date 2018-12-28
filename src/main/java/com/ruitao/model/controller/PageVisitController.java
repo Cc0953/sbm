@@ -1,7 +1,7 @@
 package com.ruitao.model.controller;
 
 import com.ruitao.model.util.StringUtil;
-import net.sf.json.JSONObject;
+import org.json.JSONObject;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 @RequestMapping("into")
 public class PageVisitController extends BaseController {
 
-    private  JSONObject jsonObject ;
+    private JSONObject jsonObject ;
     /**
      * 所有访问 由此 分发
      * @param response
@@ -38,7 +38,7 @@ public class PageVisitController extends BaseController {
     }
 
     // 登陆
-    public void login(){
+    public void toLogin(){
 
     }
 }
